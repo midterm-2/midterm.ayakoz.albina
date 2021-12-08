@@ -1,0 +1,279 @@
+body{
+	font-family: 'Montserrat Alternates', sans-serif;
+	background: url(https://wallpaperbat.com/img/347918-multicolored-geometric-pastel-wallpaper-mural.jpg);
+}
+.first_section{
+	width: 100%;
+	height: 700px;
+	background: url('../img/backf.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header{
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+.nav_links{
+	text-decoration: none;
+	margin-left: 60px;
+	color: #000;
+	font-size: 20px;
+}
+.intro_flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 40px;
+}
+.text{
+	width: 45%;
+}
+.img{
+	width: 45%;
+
+}
+.if_part_title{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 59px;
+	letter-spacing: 0.065em;
+	color: #000000;	
+	margin-bottom: 18px;
+}
+.if_part_sub_title{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 29px;
+
+	color: #000000;
+	margin-bottom: 36px;
+}
+.btn_choose{
+	background: #FFEA1F;
+	box-shadow: -14px 18px 12px -6px rgba(0, 0, 0, 0.25);
+	border-radius: 41px;
+	padding: 16px 47px;
+
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 29px;
+
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.btn_choose:hover{
+	color: #fff;
+}
+
+.secont_section{
+	margin-bottom: 183px;
+}
+
+.title_text{
+	font-family:'Times New Roman';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 44px;
+	letter-spacing: 0.065em;
+
+	color: #000000;
+	margin-bottom: 100px;
+}
+.flex_part{
+	display: flex;
+	justify-content: space-between;
+
+}
+.flex_part_parts{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 30%;
+}
+.flex_part_parts img{
+	width: 100px;
+	height: 100px;
+	width: 30%;
+	margin-right: 16px;
+}
+.texts_title{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.065em;
+
+	color: #000000;
+}
+
+.texts_sub_title{
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 0.065em;
+
+	color: #000000;
+}
+
+.and{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.and a{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 29px;
+	letter-spacing: 0.065em;
+	text-decoration: none;
+	color: #000000;
+}
+
+.slider__item{
+	width: 340px;
+	text-align: center;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 24px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	padding: 24px 20px;
+	max-width: 30%;
+	margin-left: 20px; 
+}
+.name{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.065em;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #000000;	
+}
+.lang span{
+	padding: 8px 22px;
+	background: #FFEA1F;
+	border-radius: 39px; 
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.065em;
+
+	color: #000000;
+}
+.lang {
+	margin-bottom: 35px;
+}
+.btn_look a{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.065em;
+	padding: 8px 31px;
+	color: #000000;
+	background: #FFEA1F;
+	border-radius: 58px;
+	text-decoration: none;
+}
+
+.slider__wrapper {
+  overflow: hidden;
+}
+
+.inputs{
+	width: 550px;
+	height: 50px;
+	padding-left: 15px;
+	border-radius: 129px;
+	border: 2px solid #5fff1f;
+}
+.form p {
+	text-align: center;
+}
+.form p button{
+	position: relative;
+	margin-left: -159px;
+	background: #44ff1f;
+	border-radius: 0px 50px 50px 0px;
+	width: 159px;
+	height: 50px;
+	border: none;
+}
+.date_about{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.date-flex{
+	width: 25%;
+	padding: 50px;
+	background: #FFFFFF;
+	border-radius: 49px;
+	box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.25);
+}
+.san{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 78px;
+	/* identical to box height */
+
+	letter-spacing: 0.065em;
+
+	color: #000000;
+}
+.names{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.065em;
+
+	color: #000000;
+}
+.add p input{
+	width: 100%;
+	height: 50px;
+	padding-left: 15px;
+	border-radius: 15px;
+	border: 1px solid #1fff57;
+}
+.add p button{
+	width: 100%;
+	height: 50px;
+	border-radius: 15px;
+	background-color: #44ff1f;
+	border: none;
+}
+
+.show li{
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,0 +1,80 @@
+﻿
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="recoverycss.css">
+</head>
+<body class="body.loader">
+    <button class="cmodal-auth__back" aria-label="Назад" onclick="closeModal(document.querySelector('.cmodal-reg'))"></button>
+
+<div class="wrapper">
+<section class="auth">
+   <div class="auth-wrapper_limiter">
+   <div class="auth-text">
+         <h2 class="auth-text__title">Создайте аккаунт</h2>
+   <div class="auth-text__subtitle">Раскройте весь потенциал вашего мозга вместе с BrainApps</div>
+   <ul class="unstyled auth-text__features">
+        <li>Оттачивайте свой ум</li>
+        <li>Осваивайте полезные навыки</li>
+        <li>Читайте лучшие книги в кратком изложении</li>
+   </ul>
+<img src="https://brainapps.ru/assets/img/content/auth/illstr.svg" alt="Создайте аккаунт" class="auth-text__illstr">
+  </div>
+
+<form method="POST" action="/signup" accept-charset="UTF-8" class="auth-form">
+<legend>Регистрация</legend>
+<fieldset>
+<label class="auth-form__input custom-input ">
+<input type="text" type="email" class="" placeholder="Электронная почта" name="email" value="">
+<br> <br>
+</label>
+<label class="auth-form__input custom-input ">
+<input type="password" placeholder="Пароль" name="password" placeholder="Придумайте пароль">
+
+</label>
+</fieldset>
+<button type="submit" class="customBtn customBtn--large customBtn--green">Зарегистрироваться</button>
+
+<div class="auth-form__divider">Или зарегистрируйтесь с помощью</div>
+
+<div class="auth-form-socials">
+    <ul class="auth-form-url">
+        <li><a href="https://ru-ru.facebook.com/" class='to-facebook circle-button' style="background-color: #4D76A1;">
+            <svg width="11" height="20" viewbox="0 0 11 20" fill="none" >
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.87254 20V10.8778H9.9941L10.4615 7.32111H6.87254V5.05221C6.87254 4.02279 7.16379 3.32112 8.66876 3.32112L10.5879 3.32003V0.140548C10.256 0.0965725 9.11676 0 7.7914 0C5.02416 0 3.12988 1.6573 3.12988 4.70004V7.32165H0V10.8778H3.12965V20H6.87254Z" fill="white"></path>
+            </svg>
+            </a>
+        </li>
+        <li><a href="https://ru-ru.vkontakte.com/" class='to-vkontakte circle-button' style="background-color: #4D76A1;">
+            <svg width="22" height="12" viewbox="0 0 22 12" fill="none" >
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.279 11.9353H11.5348C11.5348 11.9353 11.9141 11.8936 12.1078 11.6848C12.2861 11.4932 12.2804 11.1332 12.2804 11.1332C12.2804 11.1332 12.2558 9.44819 13.0379 9.20006C13.8088 8.95563 14.7988 10.8286 15.8481 11.5488C16.6416 12.0938 17.2445 11.9743 17.2445 11.9743L20.0502 11.9353C20.0502 11.9353 21.5179 11.8449 20.822 10.6909C20.7649 10.5965 20.4167 9.83723 18.7359 8.2771C16.9767 6.64424 17.2123 6.90835 19.3314 4.08387C20.622 2.36373 21.138 1.31357 20.9769 0.863788C20.8231 0.435395 19.8739 0.548625 19.8739 0.548625L16.7149 0.568305C16.7149 0.568305 16.4807 0.536361 16.307 0.640179C16.1373 0.742001 16.0281 0.979301 16.0281 0.979301C16.0281 0.979301 15.5281 2.3104 14.8613 3.44242C13.4546 5.83109 12.8921 5.95716 12.6623 5.80885C12.1275 5.46317 12.261 4.42014 12.261 3.67915C12.261 1.36434 12.6121 0.399173 11.5773 0.149325C11.2339 0.0663271 10.9812 0.0115658 10.103 0.00272416C8.97585 -0.00896966 8.02181 0.00614637 7.48161 0.270826C7.12224 0.446804 6.84501 0.838974 7.01386 0.861506C7.22264 0.889457 7.69552 0.988998 7.94623 1.3304C8.26995 1.77077 8.25854 2.7599 8.25854 2.7599C8.25854 2.7599 8.4445 5.48484 7.82416 5.82339C7.39833 6.05556 6.81421 5.58153 5.56012 3.41447C4.91753 2.30441 4.43238 1.07741 4.43238 1.07741C4.43238 1.07741 4.33883 0.848101 4.17198 0.725458C3.96947 0.576861 3.68654 0.529517 3.68654 0.529517L0.68465 0.549195C0.68465 0.549195 0.23401 0.561746 0.0685851 0.757688C-0.0785859 0.931955 0.0568912 1.29247 0.0568912 1.29247C0.0568912 1.29247 2.40706 6.79084 5.06812 9.56171C7.50814 12.1021 10.279 11.9353 10.279 11.9353Z" fill="white"></path>
+            </svg>
+            </a></li>
+            <li><a href="https://mail.ru/" class='to-Mail.ru circle-button' style="background-color: #005FF9;">
+                <svg width="20" height="20" viewbox="0 0 20 20" fill="none" >
+                <path d="M20 10.0244C20 13.4634 18.3922 15.0732 16.3703 15.0732C15.201 15.0732 14.1778 14.4634 13.5932 13.5366C12.6675 14.4634 11.4251 15.0488 10.0122 15.0488C7.23508 15.0488 4.99391 12.8049 4.99391 10.0244C4.99391 7.2439 7.23508 5 10.0122 5C12.7893 5 15.0305 7.2439 15.0305 10.0244V11.6585C15.0305 12.4878 15.6151 13.0732 16.3703 13.0732C17.2716 13.0732 18.0024 12.3171 18.0024 10.0244C18.0024 5.60976 14.4214 2.02439 10.0122 2.02439C5.60292 2.02439 1.99757 5.60976 1.99757 10.0244C1.99757 14.439 5.57856 18.0244 9.98782 18.0244C12.5457 18.0244 14.2996 16.7561 14.2996 16.7561L15.6151 18.2683C15.6151 18.2683 13.3739 20 9.98782 20C4.48234 20 0 15.5122 0 10C0 4.4878 4.48234 0 9.98782 0C15.5177 0.0243902 20 4.51219 20 10.0244ZM10.0122 13.0732C11.6931 13.0732 13.0572 11.7073 13.0572 10.0244C13.0572 8.34146 11.6931 6.97561 10.0122 6.97561C8.3313 6.97561 6.96711 8.34146 6.96711 10.0244C6.96711 11.7073 8.3313 13.0732 10.0122 13.0732Z" fill="#FF9E00"></path>
+                </svg>
+                </a></li>
+    </ul>
+    
+</div>
+<div class="auth-form__agreement"> Регистрируясь, вы соглашаетесь с <a href="..\page\license.html" target="_blank">Условиями использования</a> и <a href="..\page\privacy-policy.html" target="_blank">Политикой конфиденциальности</a>.</div>
+<input type="hidden" value="signup" name="mode">
+<input type="hidden" name="r_timezone" id="r_timezone">
+<script>
+							var dt = new Date();
+							var offset = -dt.getTimezoneOffset();
+							document.getElementById('r_timezone').setAttribute('value', offset || 0);
+						</script>
+<input type="hidden" name="_token" value="MIDlAgchoVHSjigbYyu6hlHVih9RvRZMYqMIn1VH">
+</form>
+</div>
+</section>
+</div>
+</div>
+
+
+
+</div>
+</body>
+</html>
